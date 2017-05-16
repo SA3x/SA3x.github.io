@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css" type="text/css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>SA3 Web Development</title>
+
+</head>
+
+<body>
+<!--Navigation Bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand">xSA3</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#footer">Follow</a></li>
+      </ul>
+    </div>  
+  </div>
+</nav>
+<!--Introduction-->
+<div class="jumbotron myjumbotron">
+  <div class="row prof">
+    <div class="col-xs-12 text-center">
+      <img src="http://ww1.prweb.com/prfiles/2016/05/18/13426887/ronnie%20salter.jpg" class="img-thumbnail"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <div class="descr">
+        <h1><b>Full Stack Developer</b></h1>
+        <p><b>HTML | CSS | jQuery | Python</b></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Projects -->
+<div id="projects">
+<div class="jumbotron myjumbotron2">
+<div class="container projects">
+  <h1 class="text-center"><b>Projects</b></h1>
+  <div class="row top">
+    <div class="col-sm-4">
+      <a href="#">
+        <img src="https://source.unsplash.com/V2UpdUxiBWI/400x300" class="img-thumbnail" style="width:100%"/>
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#">
+        <img src="https://source.unsplash.com/a/400x300" class="img-thumbnail" style="width:100%"/>
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#">
+        <img src="https://source.unsplash.com/pNG31nypHWE/400x300" class="img-thumbnail" style="width:100%"/>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="#">
+        <img src="https://source.unsplash.com/Ni-ZFNerruY/400x300" class="img-thumbnail" style="width:100%"/>
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#">
+        <img src="https://source.unsplash.com/m2al31jsj_k/400x300" class="img-thumbnail" style="width:100%"/>
+      </a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#">
+        <img src="https://source.unsplash.com/gPnovpRp0S8/400x300" class="img-thumbnail" style="width:100%"/>
+      </a>      
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!--Contact Me-->
+<div id="contact">
+  <div class="container contactme">
+    <div class="row row-centered">
+      <div class="title col-xs-10-centered text-center">
+           <h1>Contact Me</h1>
+      </div>
+    </div>
+  <div class="row row-centered">
+    <div class="form-group input col-xs-6-centered">
+      <form method="post" action="mailto:salter.ronnie@gmail.com">
+      <input type="text" class="form-control input-lg" placeholder="Name">
+      <input type="text" class="form-control input-lg" placeholder="E-mail">
+      <input type="text" class="form-control input-lg" placeholder="Phone">
+      <textarea class="form-control input-lg" rows="5" placeholder="Message"></textarea>
+    </div>
+    <div class="form-group submit col-xs-4-centered">
+      <button type="submit" class="form-control input-lg btn btn-default" value="Send Email"><b>Submit</b></button>
+    </div>
+  </form>
+     
+    </div>
+      </div>
+  </div>
+ 
+<div id="footer">
+  <div class="social">
+    <a href="https://www.instagram.com/ronniesalter/" target="_blank" class="fa fa-instagram"></a>
+		<a href="https://www.facebook.com/ronnie.salter.9?ref=bookmarks" target="_blank" class="fa fa-facebook"></a>
+		<a href="https://www.linkedin.com/in/ronnie-salter-01b3a8110/" target="_blank" class="fa fa-linkedin"></a>
+		<a href="https://www.youtube.com/channel/UCf3KED5HWipN1021j0yRung" target="_blank" class="fa fa-youtube"></a>
+  </div>
+</div>
+
+</body>
+</html>
