@@ -168,12 +168,10 @@
 
 }
 
-/*.social {
-  float: right;
-  padding-top: 2em;
-  margin-right: 5em;
-
-}*/
+.social {
+  float: center;
+  
+}
 
 .fa {
   color: rgb(117, 34, 34);
