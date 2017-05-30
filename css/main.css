@@ -5,12 +5,17 @@
 }
  
 .container-fluid.navigation {
-  background-color: rgb(123, 126, 130);
+  background-color: rgba(0,0,0,.5);
 
 }
 
-.container-fluid ul.nav.navbar-nav.navbar-right li a{
+
+
+.container-fluid ul.nav.navbar-nav.navbar-right li a {
   color: white;
+  font-size: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   
 }
 
@@ -30,47 +35,49 @@
 
 }
 
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 0px;
+}
+
+.container .navbar-brand {
+  height: 90px;
+}
+
 .container-fluid.navigation.button {
   border: 3px solid white;
 
 }
 
 .jumbotron.myjumbotron {
-  background: url(https://source.unsplash.com/Nw3ddCwbUKg/2000x2000);
+  background: url(https://source.unsplash.com/_U_Fzg1ibNY);
   background-size: cover;
-  margin-top: 3em;
-  padding-top: 3em;
-  height: 42em;
-  border-bottom: 5px solid rgb(123, 126, 130);
+  height: 60em;
+  border-bottom: 5px solid white;
 
 }
 
 .descr {
   border: 6px solid white;
   border-radius: 5px;
-  background-color: rgb(171, 171, 171);
+  background-color: rgb(123, 126, 130);
   font-size: 51px;
   color: white;
-  margin: 1em 1em 0em;
-
+  margin-top: 1em;
 }
 
 
 .descr p {
-  font-size: 24px;
+  font-size: 13px;
   padding-top: 1em;
 
 }
 
-.prof img {
-  max-height: 14em;
+.col-xs-4 img {
+  max-height: 13em;
   border-radius: 5px;
-  
-}
-
-.row.prof {
-  padding-top: 3em;
-
+  background-color: white;
 }
 
 .jumbotron.myjumbotron2 {
@@ -79,11 +86,17 @@
 
 }
 
+
 .col-sm-4 {
   transition: 1s;
-  margin-bottom: 2em;
-  margin-top: 1em;
+  height: 27em;
+  color: white;
   
+}
+
+.col-sm-4 b {
+  color: red;
+
 }
 
 .col-sm-4:hover {
@@ -129,7 +142,7 @@
 }
 
 .form-group.input {
-  background-color: rgb(171, 171, 171);
+  background-color: rgba(171, 171, 171);
   padding: 1em;
   margin-top: 3em;
   margin-left: 5em;
@@ -168,12 +181,12 @@
 
 }
 
-.social {
-  margin-left: 6em;
-  margin-right: 6em;
+/*.social {
+  float: right;
   padding-top: 2em;
-  
-}
+  margin-right: 5em;
+
+}*/
 
 .fa {
   color: rgb(117, 34, 34);
