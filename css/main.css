@@ -24,6 +24,12 @@
 
 }
 
+.navbar.navbar-toggle {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  
+}
+
 .nav li:hover {
   background-color: rgb(154, 188, 244);
   transition: .5s;
