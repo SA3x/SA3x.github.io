@@ -97,7 +97,6 @@
 
 
 .col-sm-4 {
-  transition: 1s;
   height: 27em;
   color: white;
   
@@ -107,13 +106,13 @@
   color: red;
 
 }
-
+/*
 .col-sm-4:hover {
   background: rgb(154, 188, 244);
   transition: .5s;
 
 }
-
+*/
 .container.projects {
   background-color: rgb(123, 126, 130);
 
