@@ -51,7 +51,9 @@
 }
 
 .container-fluid.navigation.button {
-  border: 3px solid white;
+  border: 5px solid white;
+  padding-top: 35px;
+  padding-bottom: 35px;
 
 }
 
