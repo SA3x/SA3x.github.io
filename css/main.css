@@ -9,6 +9,8 @@
 
 }
 
+
+
 .container-fluid ul.nav.navbar-nav.navbar-right li a {
   color: white;
   font-size: 20px;
@@ -17,15 +19,14 @@
   
 }
 
-.container-fluid ul.nav.navbar-nav.navbar-right li.active a{
-  color: rgb(123, 126, 130);
-
-}
-
 .navbar.navbar-toggle {
   padding-top: 35px;
   padding-bottom: 35px;
-  
+}
+
+.container-fluid ul.nav.navbar-nav.navbar-right li.active a{
+  color: rgb(123, 126, 130);
+
 }
 
 .nav li:hover {
@@ -69,7 +70,7 @@
   background-color: rgb(123, 126, 130);
   font-size: 51px;
   color: white;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 
@@ -89,6 +90,7 @@
   background-color: rgb(123, 126, 130);
   margin-top: -2.25em;
   border-bottom: 5px solid white;
+
 }
 
 
@@ -184,6 +186,7 @@
   background-size: cover;
   height: 20em;
 
+
 }
 
 /*.social {
@@ -195,11 +198,11 @@
 
 .fa {
   color: rgb(117, 34, 34);
-  font-size: 1.3em;
-  padding: 1em;
   transition: 1s;
+  padding: .5em;
   background-color: rgb(171, 171, 171);
   border-radius: 5px;
+  margin: 1em;
 
 }
 
