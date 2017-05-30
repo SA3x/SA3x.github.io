@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>xSA3 Web Development</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/main.css" type="text/css"/>
+  <link rel="stylesheet" href="../css/main.css" type="text/css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Salter Real Estate</title>
+
 </head>
 
 <body>
 <!--Navigation Bar-->
-<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<nav class="navbar transparent navbar-default navbar-fixed-top">
   <div class="container-fluid navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -21,73 +23,96 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand">xSA3</a>
+      <a class="navbar-brand">
+        <img src="http://ww1.prweb.com/prfiles/2016/05/18/13426887/ronnie%20salter.jpg" class="img-thumbnail"/>
+      </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#footer">Follow</a></li>
+        <li><a href="#projects">Listings</a></li>
+        <li><a href="#contact">Get Your Home's Value!</a></li>
+        <li><a href="#footer">Contact</a></li>
       </ul>
     </div>  
   </div>
 </nav>
+</div>
+
 <!--Introduction-->
 <div class="jumbotron myjumbotron">
-  <div class="row prof">
-    <div class="col-xs-12 text-center">
-      <img src="http://ww1.prweb.com/prfiles/2016/05/18/13426887/ronnie%20salter.jpg" class="img-thumbnail"/>
-    </div>
-  </div>
+  <div class="container headline">
   <div class="row">
-    <div class="col-xs-12 text-center">
-      <div class="descr">
-        <h1><b>Full Stack Developer</b></h1>
-        <p><b>HTML | CSS | JavaScript | jQuery | Python</b></p>
+    <!--<div class = "col-xs-4">
+      <img src="http://ww1.prweb.com/prfiles/2016/05/18/13426887/ronnie%20salter.jpg" class="img-thumbnail"/>
+    </div> -->
+    <div class="descr col-xs-12 text-center">
+        <h1><b>Salter Real Estate</b></h1>
+        <p><b>CalBRE Lic #01989381 | Climb Real Estate</b></p>
       </div>
     </div>
   </div>
-</div>
+    </div>
 <!-- Projects -->
 <div id="projects">
 <div class="jumbotron myjumbotron2">
 <div class="container projects">
-  <h1 class="text-center"><b>Projects</b></h1>
+  <h1 class="text-center"><b>Listings</b></h1>
   <div class="row top">
     <div class="col-sm-4">
-      <a href="#">
-        <img src="https://source.unsplash.com/V2UpdUxiBWI/400x300" class="img-thumbnail" style="width:100%"/>
+      <h3 class="text-center">924 San Benito Rd, Berkeley</h3>
+      <a href="http://www.climbsf.com/for-sale/924-san-benito-rd/" target="blank">
+        <img src="https://ssl.cdn-redfin.com/photo/9/mbpaddedwide/917/genMid.450917_0.jpg" class="img-thumbnail" style="width:100%"/>
       </a>
+      <h3 class="text-center"><b>SOLD</b> $1,575,000</h3>
     </div>
     <div class="col-sm-4">
-      <a href="#">
-        <img src="https://source.unsplash.com/A88emaZe7d8/400x300" class="img-thumbnail" style="width:100%"/>
+      <h3 class="text-center">401 Harrison St #8E, San Francisco</h3> 
+      <a href="http://www.climbsf.com/agents/ronnie-salter/" target="blank">
+        <img src="http://sfnewdevelopments.com/wp-content/uploads/425_First_3507_00151.jpg" class="img-thumbnail" style="width:100%"/>
       </a>
+      <h3 class="text-center"><b>SOLD</b> $828,000</h3>
     </div>
+  <div class="col-sm-4">
+      <h3 class="text-center">1916-1922 Vine St, Berkeley<h3>
+      <a href="http://www.climbsf.com/for-sale/1916-1922-vine-st/" target="blank">
+        <img src="https://ssl.cdn-redfin.com/photo/10/mbpaddedwide/044/genMid.40739044_4.jpg" class="img-thumbnail" style="width:100%"/>
+      </a>
+      <h3 class="text-center"><b>SOLD</b> $1,800,000</h3>
+    </div>
+    <div class="row middle">
     <div class="col-sm-4">
-      <a href="#">
-        <img src="https://source.unsplash.com/pNG31nypHWE/400x300" class="img-thumbnail" style="width:100%"/>
+      <h3 class="text-center">555 YVR #126, Walnut Creek</h3>
+      <a href="http://www.climbsf.com/for-sale/555-ygnacio-valley-rd-126/" target="blank">
+        <img src="http://www.climbsf.com/wp-content/uploads/2016/06/555-ygnacio-valley-rd-305x203.jpg" class="img-thumbnail" style="width:100%"/>
       </a>
-    </div>
+      <h3 class="text-center"><b>SOLD</b> $530,000</h3>
   </div>
-  <div class="row">
     <div class="col-sm-4">
-      <a href="#">
-        <img src="https://source.unsplash.com/Ni-ZFNerruY/400x300" class="img-thumbnail" style="width:100%"/>
+      <h3 class="text-center">127 Kinross Dr, San Rafael</h3>
+      <a href="http://www.climbsf.com/for-sale/127-kinross-dr/" target="blank">
+        <img src="https://photos.zillowstatic.com/p_c/ISa1vp8rc6nanh0000000000.jpg" class="img-thumbnail" style="width:100%"/>
       </a>
+      <h3 class="text-center"><b>SOLD</b> $1,337,352</h3>
     </div>
     <div class="col-sm-4">
-      <a href="#">
-        <img src="https://source.unsplash.com/m2al31jsj_k/400x300" class="img-thumbnail" style="width:100%"/>
-      </a>
-    </div>
-    <div class="col-sm-4">
-      <a href="#">
-        <img src="https://source.unsplash.com/gPnovpRp0S8/400x300" class="img-thumbnail" style="width:100%"/>
+      <h3 class="text-center">836 Craft Ave, El Cerrito</h3>
+      <a href="http://www.climbsf.com/for-sale/836-craft-ave/" target="blank">
+        <img src="https://ssl.cdn-redfin.com/photo/9/mbpaddedwide/868/genMid.443868_1_1.jpg" class="img-thumbnail" style="width:100%"/>
       </a>      
+      <h3 class="text-center"><b>SOLD</b> $580,000</h3>
+    </div>
+    <div class="row bottom">
+      <div class="col-sm-4">
+        <h3 class="text-center">590 El Dorado Ave #313, Oakland</h3>
+        <a href="http://www.climbsf.com/for-sale/590-el-dorado-ave-313/" target="blank">
+          <img src="https://ssl.cdn-redfin.com/photo/9/mbpaddedwide/695/genMid.443695_2.jpg" class="img-thumbnail" style="widht:100%"/>
+        </a>
+        <h3 class="text-center"><b>SOLD</b> $455,000</h3>
+      </div>
     </div>
   </div>
+</div>
 </div>
 </div>
 </div>
@@ -117,7 +142,7 @@
   </div>
  
 <div id="footer">
-  <div class="social">
+  <div class="social text-center">
     <a href="https://www.instagram.com/ronniesalter/" target="_blank" class="fa fa-instagram"></a>
 		<a href="https://www.facebook.com/ronnie.salter.9?ref=bookmarks" target="_blank" class="fa fa-facebook"></a>
 		<a href="https://www.linkedin.com/in/ronnie-salter-01b3a8110/" target="_blank" class="fa fa-linkedin"></a>
