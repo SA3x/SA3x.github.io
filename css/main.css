@@ -9,8 +9,6 @@
 
 }
 
-
-
 .container-fluid ul.nav.navbar-nav.navbar-right li a {
   color: white;
   font-size: 20px;
@@ -70,7 +68,7 @@
   background-color: rgb(123, 126, 130);
   font-size: 51px;
   color: white;
-  margin-top: 1em;
+  margin-top: 3em;
 }
 
 
